@@ -1,0 +1,26 @@
+{
+  "name": "fileupload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "^7.1.5",
+    "clean-webpack-plugin": "latest",
+    "copy-webpack-plugin": "latest",
+    "css-loader": "^2.1.1",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "less-loader": "latest",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
